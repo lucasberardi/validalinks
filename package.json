@@ -1,0 +1,21 @@
+{
+  "name": "validalinks",
+  "version": "1.0.0",
+  "description": "Captura e valida links de um arquivo fornecido",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js ./test",
+    "cli": "node cli.js ./arquivos/texto1.md"
+  },
+  "keywords": ["captura","valida","links"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.2.8"
+  },
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
